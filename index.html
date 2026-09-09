@@ -1,15 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>AVERO Auto Transport | Reliable Vehicle Transportation</title>
-
-  <meta name="description"
-        content="AVERO Auto Transport provides reliable vehicle transportation services across the United States.">
-
   <style>
 
     * {
@@ -32,10 +26,6 @@
     a {
       color: inherit;
     }
-
-    /* =========================
-       NAVIGATION
-    ========================= */
 
     nav {
       position: fixed;
@@ -79,10 +69,6 @@
     .nav-links a:hover {
       opacity: 0.6;
     }
-
-    /* =========================
-       HERO
-    ========================= */
 
     .hero {
       min-height: 100vh;
@@ -144,10 +130,6 @@
       transform: translateY(-2px);
     }
 
-    /* =========================
-       GENERAL
-    ========================= */
-
     .section {
       padding: 100px 25px;
     }
@@ -172,10 +154,6 @@
       font-size: 18px;
       color: #666;
     }
-
-    /* =========================
-       SERVICES
-    ========================= */
 
     .services {
       background: #f7f7f7;
@@ -210,10 +188,6 @@
       color: #666;
     }
 
-    /* =========================
-       HOW IT WORKS
-    ========================= */
-
     .steps {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -239,10 +213,6 @@
     .step p {
       color: #666;
     }
-
-    /* =========================
-       GET A QUOTE
-    ========================= */
 
     .quote-section {
       background: #111;
@@ -317,12 +287,16 @@
     ========================= */
 
     .sms-consent {
-      margin-top: 18px;
+      margin-top: 16px;
+      padding: 14px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fafafa;
       display: flex;
       align-items: flex-start;
       gap: 10px;
       font-size: 12px;
-      line-height: 1.5;
+      line-height: 1.55;
       color: #555;
     }
 
@@ -336,11 +310,19 @@
 
     .sms-consent label {
       cursor: pointer;
+      font-weight: 400;
+      margin: 0;
+      color: #555;
+    }
+
+    .sms-consent strong {
+      color: #111;
     }
 
     .sms-consent a {
       color: #111;
       text-decoration: underline;
+      font-weight: 600;
     }
 
     .quote-button {
@@ -365,11 +347,8 @@
       font-size: 12px;
       color: #777;
       text-align: center;
+      line-height: 1.5;
     }
-
-    /* =========================
-       ABOUT
-    ========================= */
 
     .about-grid {
       display: grid;
@@ -396,10 +375,6 @@
       font-size: 18px;
       margin-bottom: 20px;
     }
-
-    /* =========================
-       CONTACT
-    ========================= */
 
     .contact-section {
       background: #f7f7f7;
@@ -454,8 +429,41 @@
     }
 
     /* =========================
-       FOOTER
+       LEGAL
     ========================= */
+
+    .legal-section {
+      background: #fff;
+      border-top: 1px solid #eee;
+    }
+
+    .legal-box {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .legal-box h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .legal-box h3 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    .legal-box p,
+    .legal-box li {
+      color: #555;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .legal-box ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
 
     footer {
       background: #111;
@@ -499,10 +507,6 @@
       font-size: 13px;
       margin-top: 15px;
     }
-
-    /* =========================
-       MOBILE
-    ========================= */
 
     @media (max-width: 900px) {
 
@@ -564,792 +568,890 @@
 
   </style>
 </head>
-
 <body>
-
   <!-- =========================
        NAVIGATION
   ========================= -->
-
   <nav>
+<div class="nav-inner">
 
-    <div class="nav-inner">
+  <a href="#home" class="logo">
+    AVERO
+  </a>
 
-      <a href="#home" class="logo">
-        AVERO
-      </a>
+  <ul class="nav-links">
 
-      <ul class="nav-links">
+    <li>
+      <a href="#services">Services</a>
+    </li>
 
-        <li>
-          <a href="#services">Services</a>
-        </li>
+    <li>
+      <a href="#quote">Get a Quote</a>
+    </li>
 
-        <li>
-          <a href="#quote">Get a Quote</a>
-        </li>
+    <li>
+      <a href="#about">About</a>
+    </li>
 
-        <li>
-          <a href="#about">About</a>
-        </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
 
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+  </ul>
 
-      </ul>
-
-    </div>
-
+</div>
   </nav>
-
-
   <!-- =========================
        HERO
   ========================= -->
-
   <section class="hero" id="home">
+<div class="hero-content">
 
-    <div class="hero-content">
+  <span class="eyebrow">
+    AVERO AUTO TRANSPORT
+  </span>
 
-      <span class="eyebrow">
-        AVERO AUTO TRANSPORT
-      </span>
+  <h1>
+    Vehicle transportation,
+    handled with confidence.
+  </h1>
 
-      <h1>
-        Vehicle transportation,
-        handled with confidence.
-      </h1>
+  <p>
+    Reliable vehicle transportation services
+    across the United States, with professional
+    coordination from pickup to delivery.
+  </p>
 
-      <p>
-        Reliable vehicle transportation services
-        across the United States, with professional
-        coordination from pickup to delivery.
-      </p>
+  <a href="#quote" class="btn">
+    Get a Quote
+  </a>
 
-      <a href="#quote" class="btn">
-        Get a Quote
-      </a>
-
-    </div>
-
+</div>
   </section>
-
-
   <!-- =========================
        SERVICES
   ========================= -->
-
   <section class="section services" id="services">
+<div class="section-inner">
 
-    <div class="section-inner">
+  <div class="section-heading">
 
-      <div class="section-heading">
+    <span class="eyebrow">
+      OUR SERVICES
+    </span>
 
-        <span class="eyebrow">
-          OUR SERVICES
-        </span>
+    <h2>
+      Transportation made simple.
+    </h2>
 
-        <h2>
-          Transportation made simple.
-        </h2>
+    <p>
+      AVERO Auto Transport helps coordinate
+      reliable vehicle transportation from
+      pickup to final delivery.
+    </p>
 
-        <p>
-          AVERO Auto Transport helps coordinate
-          reliable vehicle transportation from
-          pickup to final delivery.
-        </p>
+  </div>
 
-      </div>
+  <div class="services-grid">
 
-      <div class="services-grid">
+    <div class="service-card">
 
-        <div class="service-card">
+      <div class="service-number">01</div>
 
-          <div class="service-number">01</div>
+      <h3>
+        Vehicle Transport
+      </h3>
 
-          <h3>
-            Vehicle Transport
-          </h3>
-
-          <p>
-            Professional transportation solutions
-            for cars, trucks, SUVs and other vehicles
-            across the United States.
-          </p>
-
-        </div>
-
-        <div class="service-card">
-
-          <div class="service-number">02</div>
-
-          <h3>
-            Broker Coordination
-          </h3>
-
-          <p>
-            Clear communication and coordination
-            between customers, brokers, dealerships
-            and transportation partners.
-          </p>
-
-        </div>
-
-        <div class="service-card">
-
-          <div class="service-number">03</div>
-
-          <h3>
-            Pickup & Delivery
-          </h3>
-
-          <p>
-            We help coordinate pickup and delivery
-            details to keep every transportation
-            process organized.
-          </p>
-
-        </div>
-
-      </div>
+      <p>
+        Professional transportation solutions
+        for cars, trucks, SUVs and other vehicles
+        across the United States.
+      </p>
 
     </div>
 
+    <div class="service-card">
+
+      <div class="service-number">02</div>
+
+      <h3>
+        Broker Coordination
+      </h3>
+
+      <p>
+        Clear communication and coordination
+        between customers, brokers, dealerships
+        and transportation partners.
+      </p>
+
+    </div>
+
+    <div class="service-card">
+
+      <div class="service-number">03</div>
+
+      <h3>
+        Pickup & Delivery
+      </h3>
+
+      <p>
+        We help coordinate pickup and delivery
+        details to keep every transportation
+        process organized.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
   </section>
-
-
   <!-- =========================
        HOW IT WORKS
   ========================= -->
-
   <section class="section">
+<div class="section-inner">
 
-    <div class="section-inner">
+  <div class="section-heading">
 
-      <div class="section-heading">
+    <span class="eyebrow">
+      HOW IT WORKS
+    </span>
 
-        <span class="eyebrow">
-          HOW IT WORKS
-        </span>
+    <h2>
+      From request to delivery.
+    </h2>
 
-        <h2>
-          From request to delivery.
-        </h2>
+  </div>
 
+  <div class="steps">
+
+    <div class="step">
+
+      <div class="step-number">
+        STEP 01
       </div>
 
-      <div class="steps">
+      <h3>
+        Request
+      </h3>
 
-        <div class="step">
-
-          <div class="step-number">
-            STEP 01
-          </div>
-
-          <h3>
-            Request
-          </h3>
-
-          <p>
-            Contact our team with your vehicle
-            transportation details.
-          </p>
-
-        </div>
-
-        <div class="step">
-
-          <div class="step-number">
-            STEP 02
-          </div>
-
-          <h3>
-            Coordinate
-          </h3>
-
-          <p>
-            We coordinate transportation details,
-            scheduling and communication.
-          </p>
-
-        </div>
-
-        <div class="step">
-
-          <div class="step-number">
-            STEP 03
-          </div>
-
-          <h3>
-            Deliver
-          </h3>
-
-          <p>
-            Your vehicle is transported to
-            the requested destination.
-          </p>
-
-        </div>
-
-      </div>
+      <p>
+        Contact our team with your vehicle
+        transportation details.
+      </p>
 
     </div>
 
+    <div class="step">
+
+      <div class="step-number">
+        STEP 02
+      </div>
+
+      <h3>
+        Coordinate
+      </h3>
+
+      <p>
+        We coordinate transportation details,
+        scheduling and communication.
+      </p>
+
+    </div>
+
+    <div class="step">
+
+      <div class="step-number">
+        STEP 03
+      </div>
+
+      <h3>
+        Deliver
+      </h3>
+
+      <p>
+        Your vehicle is transported to
+        the requested destination.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
   </section>
-
-
   <!-- =========================
        GET A QUOTE
   ========================= -->
-
   <section class="section quote-section" id="quote">
+<div class="section-inner">
 
-    <div class="section-inner">
+  <div class="section-heading">
 
-      <div class="section-heading">
+    <span class="eyebrow">
+      GET A QUOTE
+    </span>
 
-        <span class="eyebrow">
-          GET A QUOTE
-        </span>
+    <h2>
+      Tell us about your vehicle.
+    </h2>
 
-        <h2>
-          Tell us about your vehicle.
-        </h2>
+    <p>
+      Complete the form below and our team
+      will review your transportation request
+      and contact you.
+    </p>
 
-        <p>
-          Complete the form below and our team
-          will review your transportation request
-          and contact you.
-        </p>
+  </div>
 
-      </div>
+  <div class="quote-box">
 
-      <div class="quote-box">
+    <form
+      action="https://formsubmit.co/averotransport@gmail.com"
+      method="POST"
+    >
 
-        <form
-          action="https://formsubmit.co/averotransport@gmail.com"
-          method="POST"
-        >
+      <input
+        type="hidden"
+        name="_subject"
+        value="New AVERO Auto Transport Quote Request"
+      >
+
+      <input
+        type="hidden"
+        name="_template"
+        value="table"
+      >
+
+      <input
+        type="hidden"
+        name="_next"
+        value="https://averoauto.github.io/avero-auto-transport/"
+      >
+
+      <input
+        type="text"
+        name="_honey"
+        style="display:none"
+      >
+
+      <div class="form-grid">
+
+        <div class="form-group">
+
+          <label for="name">
+            Full Name *
+          </label>
 
           <input
-            type="hidden"
-            name="_subject"
-            value="New AVERO Auto Transport Quote Request"
-          >
-
-          <input
-            type="hidden"
-            name="_template"
-            value="table"
-          >
-
-          <input
-            type="hidden"
-            name="_next"
-            value="https://averoauto.github.io/avero-auto-transport/"
-          >
-
-          <input
+            id="name"
             type="text"
-            name="_honey"
-            style="display:none"
+            name="name"
+            placeholder="John Smith"
+            required
           >
 
-          <div class="form-grid">
+        </div>
 
-            <div class="form-group">
 
-              <label for="name">
-                Full Name *
-              </label>
+        <!-- PHONE -->
 
-              <input
-                id="name"
-                type="text"
-                name="name"
-                placeholder="John Smith"
-                required
-              >
+        <div class="form-group">
 
-            </div>
+          <label for="phone">
+            Phone Number *
+          </label>
 
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="(727) 555-1234"
+            autocomplete="tel"
+            required
+          >
 
-            <!-- PHONE + SMS CONSENT -->
 
-            <div class="form-group">
+          <!-- SMS OPT-IN -->
 
-              <label for="phone">
-                Phone Number *
-              </label>
+          <div class="sms-consent">
 
-              <input
-                id="phone"
-                type="tel"
-                name="phone"
-                placeholder="(727) 555-1234"
-                required
-              >
+            <input
+              type="checkbox"
+              id="sms_consent"
+              name="sms_consent"
+              value="Yes - customer consented to SMS"
+            >
 
-              <div class="sms-consent">
+            <label for="sms_consent">
 
-                <input
-                  type="checkbox"
-                  id="sms_consent"
-                  name="sms_consent"
-                  value="SMS consent provided"
-                >
+              I agree to receive SMS messages from
+              <strong>AVERO Auto Transport LLC</strong>
+              regarding my vehicle transportation request,
+              including quotes, scheduling, pickup and delivery
+              updates, and customer support.
+              Message frequency may vary.
+              Message and data rates may apply.
+              Reply <strong>STOP</strong> to opt out or
+              <strong>HELP</strong> for help.
+              Consent is not a condition of purchase.
 
-                <label for="sms_consent">
+              <br><br>
 
-                  I consent to receive SMS from
-                  <strong>AVERO Auto Transport LLC</strong>
-                  regarding quotes, scheduling, pickup and
-                  delivery updates, and customer support.
-                  Reply STOP to opt out or HELP for support.
-                  Message and data rates may apply.
-                  Messaging frequency may vary.
+              By checking this box, I provide my express
+              written consent to receive SMS messages at the
+              phone number provided above.
 
-                  <a
-                    href="privacy-policy.html"
-                    target="_blank"
-                  >
-                    Privacy Policy
-                  </a>
+              <br><br>
 
-                  and
+              <a href="#privacy-policy">
+                Privacy Policy
+              </a>
 
-                  <a
-                    href="terms.html"
-                    target="_blank"
-                  >
-                    Terms & Conditions
-                  </a>.
+              &nbsp;|&nbsp;
 
-                </label>
+              <a href="#terms">
+                Terms & Conditions
+              </a>
 
-              </div>
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="email">
-                Email *
-              </label>
-
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="john@example.com"
-                required
-              >
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="vehicle_type">
-                Vehicle Type *
-              </label>
-
-              <select
-                id="vehicle_type"
-                name="vehicle_type"
-                required
-              >
-
-                <option value="">
-                  Select vehicle type
-                </option>
-
-                <option value="Car">
-                  Car
-                </option>
-
-                <option value="SUV">
-                  SUV
-                </option>
-
-                <option value="Truck">
-                  Truck
-                </option>
-
-                <option value="Van">
-                  Van
-                </option>
-
-                <option value="Motorcycle">
-                  Motorcycle
-                </option>
-
-                <option value="Other">
-                  Other
-                </option>
-
-              </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="year">
-                Vehicle Year *
-              </label>
-
-              <input
-                id="year"
-                type="number"
-                name="vehicle_year"
-                placeholder="2024"
-                min="1900"
-                max="2030"
-                required
-              >
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="make_model">
-                Make & Model *
-              </label>
-
-              <input
-                id="make_model"
-                type="text"
-                name="make_model"
-                placeholder="Toyota Camry"
-                required
-              >
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="pickup">
-                Pickup Location *
-              </label>
-
-              <input
-                id="pickup"
-                type="text"
-                name="pickup_location"
-                placeholder="City, State or ZIP"
-                required
-              >
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="delivery">
-                Delivery Location *
-              </label>
-
-              <input
-                id="delivery"
-                type="text"
-                name="delivery_location"
-                placeholder="City, State or ZIP"
-                required
-              >
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="transport">
-                Transport Type
-              </label>
-
-              <select
-                id="transport"
-                name="transport_type"
-              >
-
-                <option value="">
-                  Select transport type
-                </option>
-
-                <option value="Open Transport">
-                  Open Transport
-                </option>
-
-                <option value="Enclosed Transport">
-                  Enclosed Transport
-                </option>
-
-              </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="condition">
-                Vehicle Condition
-              </label>
-
-              <select
-                id="condition"
-                name="vehicle_condition"
-              >
-
-                <option value="">
-                  Select condition
-                </option>
-
-                <option value="Operable">
-                  Operable
-                </option>
-
-                <option value="Inoperable">
-                  Inoperable
-                </option>
-
-              </select>
-
-            </div>
-
-
-            <div class="form-group full">
-
-              <label for="details">
-                Additional Details
-              </label>
-
-              <textarea
-                id="details"
-                name="additional_details"
-                placeholder="Preferred pickup date, delivery date, special instructions, vehicle details, etc."
-              ></textarea>
-
-            </div>
+            </label>
 
           </div>
 
+        </div>
 
-          <button
-            type="submit"
-            class="quote-button"
+
+        <div class="form-group">
+
+          <label for="email">
+            Email *
+          </label>
+
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="john@example.com"
+            required
           >
-            GET MY QUOTE
-          </button>
+
+        </div>
 
 
-          <p class="form-note">
-            By submitting this form, you agree to be contacted
-            by AVERO Auto Transport regarding your transportation request.
-          </p>
+        <div class="form-group">
 
-        </form>
+          <label for="vehicle_type">
+            Vehicle Type *
+          </label>
+
+          <select
+            id="vehicle_type"
+            name="vehicle_type"
+            required
+          >
+
+            <option value="">
+              Select vehicle type
+            </option>
+
+            <option value="Car">
+              Car
+            </option>
+
+            <option value="SUV">
+              SUV
+            </option>
+
+            <option value="Truck">
+              Truck
+            </option>
+
+            <option value="Van">
+              Van
+            </option>
+
+            <option value="Motorcycle">
+              Motorcycle
+            </option>
+
+            <option value="Other">
+              Other
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="year">
+            Vehicle Year *
+          </label>
+
+          <input
+            id="year"
+            type="number"
+            name="vehicle_year"
+            placeholder="2024"
+            min="1900"
+            max="2030"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="make_model">
+            Make & Model *
+          </label>
+
+          <input
+            id="make_model"
+            type="text"
+            name="make_model"
+            placeholder="Toyota Camry"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="pickup">
+            Pickup Location *
+          </label>
+
+          <input
+            id="pickup"
+            type="text"
+            name="pickup_location"
+            placeholder="City, State or ZIP"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="delivery">
+            Delivery Location *
+          </label>
+
+          <input
+            id="delivery"
+            type="text"
+            name="delivery_location"
+            placeholder="City, State or ZIP"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="transport">
+            Transport Type
+          </label>
+
+          <select
+            id="transport"
+            name="transport_type"
+          >
+
+            <option value="">
+              Select transport type
+            </option>
+
+            <option value="Open Transport">
+              Open Transport
+            </option>
+
+            <option value="Enclosed Transport">
+              Enclosed Transport
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="condition">
+            Vehicle Condition
+          </label>
+
+          <select
+            id="condition"
+            name="vehicle_condition"
+          >
+
+            <option value="">
+              Select condition
+            </option>
+
+            <option value="Operable">
+              Operable
+            </option>
+
+            <option value="Inoperable">
+              Inoperable
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group full">
+
+          <label for="details">
+            Additional Details
+          </label>
+
+          <textarea
+            id="details"
+            name="additional_details"
+            placeholder="Preferred pickup date, delivery date, special instructions, vehicle details, etc."
+          ></textarea>
+
+        </div>
 
       </div>
 
-    </div>
 
+      <button
+        type="submit"
+        class="quote-button"
+      >
+        GET MY QUOTE
+      </button>
+
+
+      <p class="form-note">
+        By submitting this form, you agree to be contacted
+        by AVERO Auto Transport regarding your transportation
+        request. SMS consent is optional and is only provided
+        when the SMS checkbox above is selected.
+      </p>
+
+    </form>
+
+  </div>
+
+</div>
   </section>
-
-
   <!-- =========================
        ABOUT
   ========================= -->
-
   <section class="section" id="about">
+<div class="section-inner">
 
-    <div class="section-inner">
+  <div class="about-grid">
 
-      <div class="about-grid">
+    <img
+      class="about-image"
+      src="https://www.studiopicturevehicles.com/uploads/inventory/vehicles/2225/thumbnails/IMG_7182_2048x2048w.jpg"
+      alt="Vehicle carrier transporting vehicles"
+    >
 
-        <img
-          class="about-image"
-          src="https://www.studiopicturevehicles.com/uploads/inventory/vehicles/2225/thumbnails/IMG_7182_2048x2048w.jpg"
-          alt="Peterbilt 9-car carrier transporting vehicles"
-        >
+    <div class="about-text">
 
-        <div class="about-text">
+      <span class="eyebrow">
+        ABOUT AVERO
+      </span>
 
-          <span class="eyebrow">
-            ABOUT AVERO
-          </span>
+      <h2>
+        Built around reliable communication.
+      </h2>
 
-          <h2>
-            Built around reliable communication.
-          </h2>
+      <p>
+        AVERO Auto Transport focuses on making
+        vehicle transportation organized,
+        transparent and easy to coordinate.
+      </p>
 
-          <p>
-            AVERO Auto Transport focuses on making
-            vehicle transportation organized,
-            transparent and easy to coordinate.
-          </p>
-
-          <p>
-            Our team works with customers, brokers,
-            dealerships and transportation partners
-            to help keep every shipment moving.
-          </p>
-
-        </div>
-
-      </div>
+      <p>
+        Our team works with customers, brokers,
+        dealerships and transportation partners
+        to help keep every shipment moving.
+      </p>
 
     </div>
 
+  </div>
+
+</div>
   </section>
-
-
   <!-- =========================
        CONTACT
   ========================= -->
-
   <section class="section contact-section" id="contact">
+<div class="section-inner">
 
-    <div class="section-inner">
+  <div class="section-heading">
 
-      <div class="section-heading">
+    <span class="eyebrow">
+      CONTACT US
+    </span>
 
-        <span class="eyebrow">
-          CONTACT US
-        </span>
+    <h2>
+      Let's get your vehicle moving.
+    </h2>
 
-        <h2>
-          Let's get your vehicle moving.
-        </h2>
+    <p>
+      Have a vehicle that needs to be transported?
+      Contact AVERO Auto Transport and our team
+      will be happy to assist you.
+    </p>
 
-        <p>
-          Have a vehicle that needs to be transported?
-          Contact AVERO Auto Transport and our team
-          will be happy to assist you.
-        </p>
+  </div>
 
+  <div class="contact-grid">
+
+    <a
+      class="contact-card"
+      href="mailto:averotransport@gmail.com"
+    >
+
+      <div class="contact-icon">
+        ✉
       </div>
-
-      <div class="contact-grid">
-
-        <a
-          class="contact-card"
-          href="mailto:averotransport@gmail.com"
-        >
-
-          <div class="contact-icon">
-            ✉
-          </div>
-
-          <div>
-
-            <span>
-              Email
-            </span>
-
-            <strong>
-              averotransport@gmail.com
-            </strong>
-
-          </div>
-
-        </a>
-
-
-        <a
-          class="contact-card"
-          href="tel:+17276351192"
-        >
-
-          <div class="contact-icon">
-            ☎
-          </div>
-
-          <div>
-
-            <span>
-              Phone
-            </span>
-
-            <strong>
-              727-635-1192
-            </strong>
-
-          </div>
-
-        </a>
-
-
-        <a
-          class="contact-card"
-          href="tel:+17276351166"
-        >
-
-          <div class="contact-icon">
-            ☎
-          </div>
-
-          <div>
-
-            <span>
-              Phone
-            </span>
-
-            <strong>
-              727-635-1166
-            </strong>
-
-          </div>
-
-        </a>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- =========================
-       FOOTER
-  ========================= -->
-
-  <footer>
-
-    <div class="footer-inner">
 
       <div>
 
-        <div class="footer-logo">
-          AVERO AUTO TRANSPORT
-        </div>
+        <span>
+          Email
+        </span>
 
-        <div class="copyright">
-          © 2026 AVERO Auto Transport LLC.
-          All rights reserved.
-        </div>
-
-      </div>
-
-
-      <div class="footer-links">
-
-        <a href="privacy-policy.html">
-          Privacy Policy
-        </a>
-
-        <a href="terms.html">
-          Terms & Conditions
-        </a>
+        <strong>
+          averotransport@gmail.com
+        </strong>
 
       </div>
 
+    </a>
+
+
+    <a
+      class="contact-card"
+      href="tel:+17276351192"
+    >
+
+      <div class="contact-icon">
+        ☎
+      </div>
+
+      <div>
+
+        <span>
+          Phone
+        </span>
+
+        <strong>
+          727-635-1192
+        </strong>
+
+      </div>
+
+    </a>
+
+
+    <a
+      class="contact-card"
+      href="tel:+17276351166"
+    >
+
+      <div class="contact-icon">
+        ☎
+      </div>
+
+      <div>
+
+        <span>
+          Phone
+        </span>
+
+        <strong>
+          727-635-1166
+        </strong>
+
+      </div>
+
+    </a>
+
+  </div>
+
+</div>
+  </section>
+  <!-- =========================
+       PRIVACY POLICY
+  ========================= -->
+  <section class="section legal-section" id="privacy-policy">
+<div class="section-inner">
+
+  <div class="legal-box">
+
+    <h2>
+      Privacy Policy
+    </h2>
+
+    <p>
+      AVERO Auto Transport LLC respects your privacy.
+      Information submitted through this website may include
+      your name, phone number, email address, vehicle information,
+      pickup and delivery locations, and other information
+      necessary to respond to your transportation request.
+    </p>
+
+    <h3>
+      SMS Communications
+    </h3>
+
+    <p>
+      If you voluntarily check the SMS consent box on our quote
+      form, you agree to receive SMS messages from AVERO Auto
+      Transport LLC regarding your vehicle transportation request,
+      including quotes, scheduling, pickup and delivery updates,
+      and customer support.
+    </p>
+
+    <p>
+      Message frequency may vary. Message and data rates may apply.
+      You may opt out at any time by replying STOP. For assistance,
+      reply HELP.
+    </p>
+
+    <h3>
+      Information Sharing
+    </h3>
+
+    <p>
+      AVERO Auto Transport LLC does not sell or rent your personal
+      information. Information may be used to communicate with you
+      about your transportation request and to coordinate services
+      with relevant transportation partners when necessary.
+    </p>
+
+    <h3>
+      Contact
+    </h3>
+
+    <p>
+      For questions regarding this Privacy Policy, contact
+      AVERO Auto Transport LLC at
+      averotransport@gmail.com.
+    </p>
+
+  </div>
+
+</div>
+  </section>
+  <!-- =========================
+       TERMS & CONDITIONS
+  ========================= -->
+  <section class="section legal-section" id="terms">
+<div class="section-inner">
+
+  <div class="legal-box">
+
+    <h2>
+      Terms & Conditions
+    </h2>
+
+    <h3>
+      SMS Terms
+    </h3>
+
+    <p>
+      By voluntarily selecting the SMS consent checkbox on the
+      AVERO Auto Transport quote form, you agree to receive SMS
+      messages from AVERO Auto Transport LLC at the phone number
+      provided.
+    </p>
+
+    <p>
+      Messages may include vehicle transportation quotes,
+      scheduling information, pickup and delivery updates,
+      customer support communications, and other messages
+      directly related to your transportation request.
+    </p>
+
+    <p>
+      Message frequency may vary. Message and data rates may apply.
+      Consent is not a condition of purchase.
+    </p>
+
+    <p>
+      You can opt out of SMS messages at any time by replying
+      STOP. Reply HELP for assistance.
+    </p>
+
+    <h3>
+      Website Use
+    </h3>
+
+    <p>
+      Information submitted through this website is used to
+      respond to transportation inquiries and coordinate vehicle
+      transportation services. Submitting a quote request does
+      not guarantee a transportation booking or a specific price.
+    </p>
+
+    <h3>
+      Contact
+    </h3>
+
+    <p>
+      AVERO Auto Transport LLC<br>
+      Email: averotransport@gmail.com<br>
+      Phone: 727-635-1192
+    </p>
+
+  </div>
+
+</div>
+  </section>
+  <!-- =========================
+       FOOTER
+  ========================= -->
+  <footer>
+<div class="footer-inner">
+
+  <div>
+
+    <div class="footer-logo">
+      AVERO AUTO TRANSPORT
     </div>
 
-  </footer>
+    <div class="copyright">
+      © 2026 AVERO Auto Transport LLC.
+      All rights reserved.
+    </div>
 
+  </div>
+
+
+  <div class="footer-links">
+
+    <a href="#privacy-policy">
+      Privacy Policy
+    </a>
+
+    <a href="#terms">
+      Terms & Conditions
+    </a>
+
+  </div>
+
+</div>
+  </footer>
 </body>
 </html>
