@@ -450,6 +450,63 @@
 
 
     /* =========================
+       SMS CONSENT
+    ========================= */
+
+    .sms-consent {
+
+      margin-top: 25px;
+
+      padding: 18px;
+
+      background: #f7f7f7;
+
+      border: 1px solid #e5e5e5;
+
+      border-radius: 10px;
+
+      display: flex;
+
+      align-items: flex-start;
+
+      gap: 12px;
+    }
+
+    .sms-consent input[type="checkbox"] {
+
+      width: 18px;
+
+      height: 18px;
+
+      margin-top: 3px;
+
+      flex-shrink: 0;
+
+      cursor: pointer;
+    }
+
+    .sms-consent label {
+
+      font-size: 13px;
+
+      line-height: 1.55;
+
+      color: #555;
+
+      cursor: pointer;
+    }
+
+    .sms-consent a {
+
+      color: #111;
+
+      font-weight: 600;
+
+      text-decoration: underline;
+    }
+
+
+    /* =========================
        ABOUT
     ========================= */
 
@@ -1307,6 +1364,48 @@
 
             </div>
 
+
+          </div>
+
+
+          <!-- =========================
+               SMS CONSENT
+          ========================= -->
+
+          <div class="sms-consent">
+
+            <input
+              type="checkbox"
+              id="sms_consent"
+              name="sms_consent"
+              value="I agree to receive SMS messages from AVERO Auto Transport LLC"
+              required
+            >
+
+            <label for="sms_consent">
+
+              I agree to receive SMS messages from
+              <strong>AVERO Auto Transport LLC</strong>
+              regarding my vehicle transportation service,
+              including quotes, scheduling, pickup and delivery
+              updates, and customer support.
+
+              Message frequency varies. Message and data rates
+              may apply. Reply <strong>STOP</strong> to opt out
+              or <strong>HELP</strong> for help.
+
+              Consent is not a condition of purchase.
+
+              View our
+              <a href="privacy-policy.html" target="_blank">
+                Privacy Policy
+              </a>
+              and
+              <a href="terms.html" target="_blank">
+                Terms & Conditions
+              </a>.
+
+            </label>
 
           </div>
 
